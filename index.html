@@ -1,0 +1,33 @@
+<!doctype html5>
+<html>
+<head>
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="pragma" content="no-cache">
+   <title>Gethsemane Lutheran Church of Marion</title>
+<frameset COLS="240,*">
+<frame NAME="toc"   SRC="toc201702052128.html" scrolling="yes">
+<frameset ROWS="260,*">
+<frame NAME="logo" SRC="logo.html" scrolling="no">
+<frame NAME="main" SRC="mission.html" scrolling="yes">
+</frameset>
+<noframes>
+</head>
+<body>
+You must use a browser that can display frames
+to see this page.&nbsp;</noframes></frameset>
+<script>
+Object.prototype.each = function(f){
+    var l = this.length;
+    for(var i=0;i<l;i++)
+        {
+            try {
+                this[i].eachCall = f;
+                this[i].eachCall(this[i]);
+            } catch(e){ throw e; }
+        }
+};
+
+document.getElementsByTagName('frame').each(function(){this.src=this.src;});
+</script>
+</body>
+</html>
